@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4417
+
+Holokai is inspired by molokai ( http://www.vim.org/scripts/script.php?script_id=2340 ).
+
+You can see screenshots of the scheme and most up to date version at http://github.com/changyuheng/holokai
+
+To use this color scheme under x-terminal, you should enable 256 color support in both x-terminal and vim and also screen/tmux if you have one.
