@@ -30,9 +30,9 @@ hi NonText          guifg=#808080
 hi SpecialKey       guifg=#808080
 
 hi Boolean          guifg=#af87ff
-hi Character        guifg=#afaf87
+hi Character        guifg=#afaf5f
 hi Number           guifg=#af87ff
-hi String           guifg=#afaf87
+hi String           guifg=#afaf5f
 hi Conditional      guifg=#d7d700                   gui=bold
 hi Constant         guifg=#af87ff                   gui=bold
 hi Cursor           guifg=#000000   guibg=#dadada
@@ -52,17 +52,17 @@ hi Float            guifg=#af87ff
 hi FoldColumn       guifg=#5f87af   guibg=#000000
 hi Folded           guifg=#5f87af   guibg=#000000
 hi Function         guifg=#87d700
-hi Identifier       guifg=#ff8700                   gui=none
+hi Identifier       guifg=#87d700                   gui=none
 hi Ignore           guifg=#808080   guibg=#080808
-hi IncSearch        guifg=#d7ffaf
+hi IncSearch        guifg=#5fd7ff
 
 hi Keyword          guifg=#d7d700                   gui=bold
-hi Label            guifg=#ffff00                   gui=none
-hi Macro            guifg=#d7ffaf                   gui=italic
+hi Label            guifg=#d7d700                   gui=none
+hi Macro            guifg=#5fd7ff                   gui=italic
 
 hi MatchParen       guifg=#000000   guibg=#ff8700   gui=bold
-hi ModeMsg          guifg=#ffff00
-hi MoreMsg          guifg=#ffff00
+hi ModeMsg          guifg=#d7d700
+hi MoreMsg          guifg=#d7d700
 hi Operator         guifg=#d7d700
 
 " complete menu
@@ -71,15 +71,15 @@ hi PmenuSel                         guibg=#ffd7d7
 hi PmenuSbar                        guibg=#080808
 hi PmenuThumb       guifg=#5fd7ff
 
-hi PreCondit        guifg=#87d700                   gui=bold
-hi PreProc          guifg=#87d700
+hi PreCondit        guifg=#d7d700                   gui=bold
+hi PreProc          guifg=#5fd7ff
 hi Question         guifg=#5fd7ff
 hi Repeat           guifg=#d7d700                   gui=bold
 hi Search           guifg=#dadada   guibg=#5f8787
 
 " marks column
 hi SignColumn       guifg=#87d700   guibg=#262626
-hi SpecialChar      guifg=#d7d700                   gui=bold
+hi SpecialChar      guifg=#af87ff                   gui=bold
 hi SpecialComment   guifg=#808080                   gui=bold
 hi Special          guifg=#5fd7ff   guibg=#080808   gui=italic
 if has("spell")
@@ -91,14 +91,14 @@ endif
 hi Statement        guifg=#d7d700                   gui=bold
 hi StatusLine       guifg=#444444   guibg=#dadada
 hi StatusLineNC     guifg=#808080   guibg=#080808
-hi StorageClass     guifg=#ff8700                   gui=italic
+hi StorageClass     guifg=#87d700                   gui=italic
 hi Structure        guifg=#5fd7ff
 hi Tag              guifg=#d7d700                   gui=italic
 hi Title            guifg=#d75f00
 hi Todo             guifg=#ffffff   guibg=#080808   gui=bold
 
-hi Typedef          guifg=#5fd7ff
-hi Type             guifg=#5fd7ff                   gui=none
+hi Typedef          guifg=#87d700
+hi Type             guifg=#87d700                   gui=none
 hi Underlined       guifg=#808080                   gui=underline
 
 hi VertSplit        guifg=#808080   guibg=#080808   gui=bold
@@ -114,9 +114,9 @@ if &t_Co > 255
     hi Normal           ctermfg=250
     hi CursorLine                   ctermbg=234 cterm=none
     hi Boolean          ctermfg=141
-    hi Character        ctermfg=144
+    hi Character        ctermfg=143
     hi Number           ctermfg=141
-    hi String           ctermfg=144
+    hi String           ctermfg=143
     hi Conditional      ctermfg=184             cterm=bold
     hi Constant         ctermfg=141             cterm=bold
     hi Cursor           ctermfg=16  ctermbg=253
@@ -137,17 +137,17 @@ if &t_Co > 255
     hi FoldColumn       ctermfg=67  ctermbg=16
     hi Folded           ctermfg=67  ctermbg=16
     hi Function         ctermfg=112
-    hi Identifier       ctermfg=208             cterm=none
+    hi Identifier       ctermfg=112             cterm=none
     hi Ignore           ctermfg=244 ctermbg=232
-    hi IncSearch        ctermfg=193
+    hi IncSearch        ctermfg=81
 
     hi Keyword          ctermfg=184             cterm=bold
-    hi Label            ctermfg=226             cterm=none
-    hi Macro            ctermfg=193
+    hi Label            ctermfg=184             cterm=none
+    hi Macro            ctermfg=81
 
     hi MatchParen       ctermfg=16  ctermbg=208 cterm=bold
-    hi ModeMsg          ctermfg=226
-    hi MoreMsg          ctermfg=226
+    hi ModeMsg          ctermfg=184
+    hi MoreMsg          ctermfg=184
     hi Operator         ctermfg=184
 
     " complete menu
@@ -156,29 +156,29 @@ if &t_Co > 255
     hi PmenuSbar                    ctermbg=232
     hi PmenuThumb       ctermfg=81
 
-    hi PreCondit        ctermfg=112             cterm=bold
-    hi PreProc          ctermfg=112
+    hi PreCondit        ctermfg=184             cterm=bold
+    hi PreProc          ctermfg=81
     hi Question         ctermfg=81
     hi Repeat           ctermfg=184             cterm=bold
     hi Search           ctermfg=253 ctermbg=66
 
     " marks column
     hi SignColumn       ctermfg=112 ctermbg=235
-    hi SpecialChar      ctermfg=184             cterm=bold
+    hi SpecialChar      ctermfg=141
     hi SpecialComment   ctermfg=244             cterm=bold
     hi Special          ctermfg=81  ctermbg=232
 
     hi Statement        ctermfg=184             cterm=bold
     hi StatusLine       ctermfg=238 ctermbg=253
     hi StatusLineNC     ctermfg=244 ctermbg=232
-    hi StorageClass     ctermfg=208
+    hi StorageClass     ctermfg=112
     hi Structure        ctermfg=81
     hi Tag              ctermfg=184
     hi Title            ctermfg=166
     hi Todo             ctermfg=231 ctermbg=232 cterm=bold
 
-    hi Typedef          ctermfg=81
-    hi Type             ctermfg=81              cterm=none
+    hi Typedef          ctermfg=112
+    hi Type             ctermfg=112             cterm=none
     hi Underlined       ctermfg=244             cterm=underline
 
     hi VertSplit        ctermfg=244 ctermbg=232 cterm=bold
