@@ -66,10 +66,10 @@ hi MoreMsg          guifg=#d7d700
 hi Operator         guifg=#d7d700
 
 " complete menu
-hi Pmenu            guifg=#5fd7ff
-hi PmenuSel                         guibg=#ffd7d7
+hi Pmenu            guifg=#bcbcbc   guibg=#444444
+hi PmenuSel         guifg=#bcbcbc   guibg=#000087
 hi PmenuSbar                        guibg=#080808
-hi PmenuThumb       guifg=#5fd7ff
+hi PmenuThumb       guifg=#bcbcbc
 
 hi PreCondit        guifg=#d7d700                   gui=bold
 hi PreProc          guifg=#5fd7ff
@@ -103,7 +103,7 @@ hi Underlined       guifg=#808080                   gui=underline
 
 hi VertSplit        guifg=#808080   guibg=#080808   gui=bold
 hi VisualNOS                        guibg=#444444
-hi Visual                           guibg=#00005f
+hi Visual                           guibg=#000087
 hi WarningMsg       guifg=#ffffff   guibg=#444444   gui=bold
 hi WildMenu         guifg=#5fd7ff
 
@@ -151,10 +151,10 @@ if &t_Co > 255
     hi Operator         ctermfg=184
 
     " complete menu
-    hi Pmenu            ctermfg=81
-    hi PmenuSel                     ctermbg=244
+    hi Pmenu            ctermfg=250 ctermbg=238
+    hi PmenuSel         ctermfg=250 ctermbg=18
     hi PmenuSbar                    ctermbg=232
-    hi PmenuThumb       ctermfg=81
+    hi PmenuThumb       ctermfg=250
 
     hi PreCondit        ctermfg=184             cterm=bold
     hi PreProc          ctermfg=81
@@ -183,7 +183,7 @@ if &t_Co > 255
 
     hi VertSplit        ctermfg=244 ctermbg=232 cterm=bold
     hi VisualNOS                    ctermbg=238
-    hi Visual                       ctermbg=17
+    hi Visual                       ctermbg=18
     hi WarningMsg       ctermfg=231 ctermbg=238 cterm=bold
     hi WildMenu         ctermfg=81
 
